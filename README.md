@@ -16,10 +16,10 @@ A simple music streaming web app built with **HTML, CSS, and JavaScript**. It al
 No additional setup required!
 
 🔧 Technologies Used
-HTML – Structure
-CSS – Styling
-JavaScript – Functionality
+- HTML – Structure
+- CSS – Styling
+- JavaScript – Functionality
 
-🎤 API Integration
+🎤 API Integration <br>
 API selection is in progress – will be updated soon!
 

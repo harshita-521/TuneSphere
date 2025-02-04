@@ -14,8 +14,8 @@
             <div class="home bg-grey rounded m-1 p-1">
                 <div class="logo invert"><img src="assets/logo.svg" alt="logo" height="60px"></div>
                 <ul>
-                    <li><img src="assets/home.svg" alt="home" class="icon invert">Home</li>
-                    <li><img src="assets/search.svg" alt="search" class="icon invert">Search</li>
+                    <li><img src="assets/home.svg" alt="home" class="icon invert"><button class="homeButton">Home</button></li>
+                    <li><img src="assets/search.svg" alt="search" class="icon invert"><button class="searchButton">Search</button> </li>
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1 p-1">
@@ -58,7 +58,9 @@
                 </div>
             </div>
         </div>
+        
         <div class="right bg-grey rounded ">
+            <div class="homeScreen">
             <div class="header flex">
                 <div class="nav">
                     <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -119,6 +121,14 @@
                 </div>
             </div>
         </div>
+    
+    <div class="searchScreen fadeOut">
+        <div class="searchBar">
+            <input type="text" id="search-input" placeholder="Search for songs">
+            <button class="searchBar_button">Search</button>
+        </div>
+    </div>
+</div>
     </div>
     <script src="script.js"></script>
 </body>

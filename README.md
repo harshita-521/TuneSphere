@@ -15,6 +15,11 @@ A simple music streaming web app built with **HTML, CSS, and JavaScript**. It al
 2. Open index.html in your browser
 No additional setup required!
 
+-----OR-----
+Visit: https://harshita-521.github.io/TuneSphere/
+
+
+
 🔧 Technologies Used
 - HTML – Structure
 - CSS – Styling

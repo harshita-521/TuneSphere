@@ -216,6 +216,11 @@ body {
  list-style-type: decimal;
 }
 
+.searchBar{
+    position: absolute;
+    top: 75px;
+}
+
 .searchBar_button{
     background-color: white;
     border-radius: 20px;
@@ -243,4 +248,49 @@ body {
     font-size: 16px;
     cursor: pointer;
     width: 64vw;
+}
+
+.header1{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1f1f1f;
+    height: 30px;
+    align-items: center;
+    width: 72vw;
+}
+
+.browse{
+    position: absolute;
+    top: 160px;
+}
+
+.container_browse {
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.card_browse_text{
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card_browse {
+    width: 248px;
+    height: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ee0b88;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_browse img {
+    width: 45%;
+    transform: rotate(30deg) translate(110px,-75px);
 }

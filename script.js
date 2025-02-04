@@ -25,6 +25,16 @@ const playSongs = () => {
   } else {
     console.error("One or more elements not found!");
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const boxes = document.querySelectorAll(".card_browse"); 
+
+    boxes.forEach(box => {
+        const randomColor = `hsl(${Math.floor(Math.random() * 360)}, 100%, 50%)`; 
+        box.style.backgroundColor = randomColor;
+    });
+});
+
 };
 
 playSongs();

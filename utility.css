@@ -40,13 +40,13 @@
 .fadeOut{
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 0.2s cubic-bezier(0.8, 0.84, 0, 1.66);
 }
 
 .fadeIn{
     opacity: 1;
     pointer-events: all;
-    transition: opacity 0.5s ease-in 1s;
+    transition: opacity 0.2s cubic-bezier(0.8, 0.84, 0, 1.66) 0.3s;
 }
 
   

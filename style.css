@@ -106,10 +106,10 @@ body {
 }
 
 .searchButton:hover{
-    color: rgb(223, 219, 219);
+    color: #1ED760;
 }
 .homeButton:hover{
-    color: rgb(223, 219, 219);
+    color: #1ED760;
 }
 
 .spotify-playlist {
@@ -244,15 +244,16 @@ body {
 }
 .createPlaylist button{
     position: absolute;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
     font-weight: bold;
     bottom: 0.5rem;
+    border: none;
 }
 .createPlaylist button:hover{
-    padding: 11px;
+    transform: scale(1.1);
     font-weight: bolder;
-    color: #2ee8118f;
+    background-color: #1ED760;
 }
 .createPlaylist_content{
     padding: 12px;
@@ -271,6 +272,29 @@ body {
 .prev_Playlist_content{
     padding: 12px;
 }
+
+.prev_Playlist_content p{
+    padding: 5px;
+    /* margin: 5px; */
+    font-size: 14px;
+}
+
+.prev_Playlist_content button{
+    border-radius: 15px;
+    padding: 8px;
+    background: white; 
+    border: none; 
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev_Playlist_content button:hover {
+    transform: scale(1.1);
+    opacity: 0.8; 
+    background-color:#1ED760 ;
+}
+
 
 .songList ul{
     padding: 8px 30px;
@@ -300,8 +324,9 @@ body {
 }
 
 .searchBar_button:hover{
-    font-weight: bolder;
+    transform: scale(1.05);
     /* font-size: 17px; */
+    background-color: #1ED760;
 }
 
 #search-input{

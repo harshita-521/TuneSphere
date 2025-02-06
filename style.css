@@ -21,6 +21,7 @@ body {
 
 .right {
     width: 75vw;
+    height: 100%;
     /* margin: 50px 0;  */
     position: relative;
 }
@@ -191,14 +192,16 @@ body {
 }
 
 .playbar{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    background-color:white;
-    width: 92%;
+    width: 97.5vw;
     padding: 10px;
-    /* margin: 0; */
-   
-
+    z-index: 1000;
+    background: linear-gradient(to left, rgba(26, 227, 7, 0.2), rgba(228, 225, 225, 0.05));
+    backdrop-filter: blur(20px);
+    /* box-shadow: 0 -10px 30px rgba(255, 255, 255, 0.2), 
+    0 -5px 15px rgba(255, 255, 255, 0.1); Glowing white shadow */
+/* border-radius: 20px ; */
 }
 
 .songButtons{
@@ -218,6 +221,7 @@ body {
 
 .searchBar{
     position: absolute;
+    /* position: sticky; */
     top: 75px;
 }
 
@@ -231,11 +235,12 @@ body {
     font-size: 16px;
     cursor: pointer;
     width: 79px;
+    /* position: fixed; */
 }
 
 .searchBar_button:hover{
     font-weight: bolder;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 
 #search-input{
@@ -293,4 +298,33 @@ body {
 .card_browse img {
     width: 45%;
     transform: rotate(30deg) translate(110px,-75px);
+}
+
+.footer_content{
+    font-weight: bold;
+    display: flex;
+    /* padding: 50px; */
+    margin: 20px;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+.footer_content li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #7b7b7b;
+    flex-direction: column;
+    
+}
+a:hover{
+text-decoration: underline;
+color: white;
+}
+
+.footer_content_text{
+    padding: 15px;
+    
 }

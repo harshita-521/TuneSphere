@@ -16,9 +16,10 @@ body {
 /*  ctrl shift i */
 
 .left {
-    width: 25vw;
+    width: 23vw;
     padding: 10px;
     /* position:fixed; */
+   
 }
 
 .right {
@@ -26,6 +27,8 @@ body {
     height: 100%;
     /* margin: 50px 0;  */
     position: relative;
+    
+   
 }
 
 .home ul li {
@@ -54,7 +57,7 @@ body {
 }
 
 .library {
-    min-height: 80vh;
+    min-height: 120vh;
     position: relative;
 }
 
@@ -80,6 +83,7 @@ body {
     background-color: #1f1f1f;
     height: 30px;
     /* position: sticky; */
+    border-radius: 10px;
 }
 
 
@@ -125,18 +129,19 @@ body {
 }
 
 .cardContainer {
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 50px;
     /* position: fixed; */
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* background-color: #ee0b88; */
 }
 
 .card {
     width: 200px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #39383812;
+    background-color: #121212;
     position: relative;
     border-radius: 15px;
     max-height: 280px;
@@ -238,18 +243,18 @@ body {
 .playbar {
     position: fixed;
     bottom: 0;
-    width: 97.5vw;
-    padding: 10px;
+    width: 97vw;
+    padding: 14px 20px;
+    
     z-index: 1000;
-    background: linear-gradient(to right, rgba(241, 11, 164, 0.396), rgba(70, 25, 195, 0.385), rgba(177, 11, 218, 0.385));
+    background: linear-gradient(to right, rgba(173, 216, 160, 0.396), rgba(61, 182, 54, 0.385), rgba(2, 58, 6, 0.385));
     backdrop-filter: blur(20px);
     min-height: 35px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* box-shadow: 0 -10px 30px rgba(255, 255, 255, 0.2), 
-    0 -5px 15px rgba(255, 255, 255, 0.1); Glowing white shadow */
-    /* border-radius: 20px ; */
+   font-weight: bold;
+   /* padding-right: 30px; */
 }
 
 .songButtons {
@@ -387,6 +392,7 @@ body {
     height: 30px;
     align-items: center;
     width: 72vw;
+    border-radius: 10px;
 }
 
 .browse {
@@ -450,4 +456,34 @@ a:hover {
 .footer_content_text {
     padding: 15px;
 
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: rgb(241, 234, 241);
+    font-size: 18px;
+}
+
+.playSong{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #1ED760;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 140px;
+    bottom: 120px;
+    opacity: 0;
+}
+
+.card:hover .playSong {
+    transition: all 0.5s cubic-bezier(0.51, 2.44, 0.18, 3.6);
+    z-index: 1;
+    opacity: 1;
 }

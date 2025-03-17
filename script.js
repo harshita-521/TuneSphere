@@ -2,7 +2,7 @@ console.log("Let's deep dive into music !");
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  let name = prompt("What is your name?");
+  let name = prompt("Hey Mysterious Guest! What's your name?");
   if (name) {
     document.getElementById("username").textContent =name;
   };

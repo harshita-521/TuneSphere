@@ -1,4 +1,13 @@
-console.log("Let's go!");
+console.log("Let's deep dive into music !");
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  let name = prompt("What is your name?");
+  if (name) {
+    document.getElementById("username").textContent =name;
+  };
+});
+
 
 const playPauseBtn = document.querySelector(".playPause");
 const prevBtn= document.querySelector(".prevSong");

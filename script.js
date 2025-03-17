@@ -19,7 +19,8 @@ const songs = [
   { name:"Pyaar Hai" , src:"assets/song-audio/Pyaar Hai.mp3" , artist:"Sagar Verma" , img:"assets/song-cover/Cover of Pyaar Hai by Sagar Verma, Pina Colada Blues, Samahita Narang, Mismatched - Cast.jpg"},
   {name: "Tum Se Hi" , src:"assets/song-audio/Tum Se Hi .mp3" , artist:"Pritam" , img:"assets/song-cover/Cover of Tum Se Hi by Pritam, Mohit Chauhan, Irshad Kamil.jpg"},
   {name:"Jhol" , src:"assets/song-audio/SpotiDownloader.com - Jhol - Maanu.mp3" , artist:"Maanu", img:"assets/song-cover/Cover of Jhol by Maanu, Annural Khalid.jpg"},
-  {nmae:"Teri Jhuki Nazar" , src:"assets/song-audio/SpotiDownloader.com - Teri Jhuki Nazar - Pritam.mp3",artist:"Pritam,Shafqat",img:"assets/song-cover/Cover of Teri Jhuki Nazar by Pritam, Shafqat Amanat Ali.jpg"}
+  {name:"Teri Jhuki Nazar" , src:"assets/song-audio/SpotiDownloader.com - Teri Jhuki Nazar - Pritam.mp3",artist:"Pritam,Shafqat",img:"assets/song-cover/Cover of Teri Jhuki Nazar by Pritam, Shafqat Amanat Ali.jpg"},
+  {name:"Espresso" , src:"assets/song-audio/SpotiDownloader.com - Espresso - Sabrina Carpenter.mp3" , artist:"Sabrina Carpenter", img:"assets/song-cover/Cover of Espresso by Sabrina Carpenter.jpg"}
 ]
 
 const loadSong = (index) => {

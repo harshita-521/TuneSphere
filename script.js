@@ -555,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Handle empty search
     if (input === "") {
       let li = document.createElement("li");
-      li.textContent = "Please enter a search term";
+      li.textContent = "Search for a song /  artist";
       li.className = "no-results";
       songList.appendChild(li);
       return;

@@ -201,9 +201,15 @@
             </div>
         </div>
         <div class="searchBar">
-            <input type="text" id="search-input" placeholder="Search for songs...">
+            <input type="text" id="search-input" placeholder="Search for songs/artists..." onkeyup="searchSongs()">
             <button class="searchBar_button">Search</button>
+
+            <ul id="songList"></ul>
         </div>
+        
+
+
+
         <div class="browse">
             <div class="text_browse"><h1>Browse all</h1></div>
             <div class="container_browse flex">
